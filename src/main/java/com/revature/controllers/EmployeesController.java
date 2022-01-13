@@ -4,7 +4,7 @@ import java.util.Set;
 
 import com.revature.beans.Employee;
 import com.revature.data.EmployeeDAO;
-import com.revature.data.postgres.EmployeePostgres;
+import com.revature.data.EmployeePostgres;
 
 import io.javalin.http.Context;
 
