@@ -4,12 +4,11 @@ import java.util.Set;
 
 import com.revature.beans.Employee;
 import com.revature.data.EmployeeDAO;
-import com.revature.data.EmployeePostgres;
 
 import io.javalin.http.Context;
 
 public class EmployeesController {
-	private static EmployeeDAO empDao = new EmployeePostgres();
+	private static EmployeeDAO empDao = new EmployeeDAO();
 	private static Employee employee = new Employee();
 	
 public static void viewAllEmployees(Context ctx) {
